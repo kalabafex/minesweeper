@@ -1,0 +1,40 @@
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+#game {
+   width: fit-content;
+   margin: auto;
+}
+#header {
+   width: fit-content;
+   margin: auto;
+   text-align: center;
+}
+#reset-button {
+   margin: 4px; 
+}
+
+.hidden {
+    background-color: lightgray;
+}
+
+.revealed {
+    background-color: white;
+}
+
+.flagged {
+    background-color: yellow;
+    color: red;
+}
+
+.mine {
+    background-color: red; /* Change to red background */
+    color: black;
+    font-weight: bold;
+}
